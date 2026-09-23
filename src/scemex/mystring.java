@@ -8,7 +8,7 @@ public void setString(String t){ Text = t;
 
 public String invert( ){
 int i , n = Text.length();
-char [] Temp;
+char [] Temp = new char [n+1];
 Temp = Text.toCharArray(); Text= "";
 for ( i=0; i<n; i++) {
 if (Temp[i] >= 'A' && Temp[i] <= 'Z')
